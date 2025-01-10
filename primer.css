@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column; /* Disposición en columna */
+    min-height: 100vh; /* Altura mínima de la página igual a la ventana */
+}
+
+h1{
+    color: wheat;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.marco {
+    border: 10px solid palevioletred; /* Tamaño y color del marco */
+    padding: 10px; /* Espacio entre la imagen y el borde */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+img{
+    height: 200px;
+    width: 400px;
+    float: right;
+}
+
+main{
+    flex: 1;
+}
+
+.letrasP p{
+    color: darkseagreen;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+footer p{
+    color: gray;
+}
+
+footer{
+    text-align: center;
+}

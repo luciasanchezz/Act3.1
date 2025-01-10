@@ -1,0 +1,7 @@
+{
+    "type": "static",
+    "static": {
+    "path": "./",
+    "index": "principal.html"
+    }
+}
